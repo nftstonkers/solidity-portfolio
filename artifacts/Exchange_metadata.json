@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_marbleContract",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_chocolateContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_etherToMarbleRate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_etherToChocolateRate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "isMarble",
+						"type": "bool"
+					}
+				],
+				"name": "buy",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "chocolateContract",
+				"outputs": [
+					{
+						"internalType": "contract Chocolate",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "etherToChocolateRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "etherToMarbleRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "marblesAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "exchangeMarblesForChocolates",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "marbleContract",
+				"outputs": [
+					{
+						"internalType": "contract Marble",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"marbles-chocolates\\MarblesChocolates.sol": "Exchange"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"marbles-chocolates\\MarblesChocolates.sol": {
+			"keccak256": "0x1bd1b8e3204b94b06b50463eb547c6e472344b2e70107a0b1b07eb1e435bfc3f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6053bc75a64e59c5d72541849de3f6610cc4f86533277b4a5f955bdec142195c",
+				"dweb:/ipfs/QmZm2rSGiFRBfPeVfRJRDSh8vKXXM733Wx5JiiWyEVGwEH"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,166 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "firstInput",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "secondInput",
+						"type": "int256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "firstInput",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "secondInput",
+						"type": "int256"
+					}
+				],
+				"name": "divide",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "firstInput",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "secondInput",
+						"type": "int256"
+					}
+				],
+				"name": "modulo",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "firstInput",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "secondInput",
+						"type": "int256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "firstInput",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "secondInput",
+						"type": "int256"
+					}
+				],
+				"name": "subtract",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"calculator\\calculator.sol": "Calculator"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"calculator\\calculator.sol": {
+			"keccak256": "0xb0fe60268b8144414e3dee4b148acac6b03fbbbe040568fff636a476b400912d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dfe2545e217f97a8ab598af95710c5ebd1e91e51fa31fc49cc70ceedce142cf7",
+				"dweb:/ipfs/QmXVCnKvnQbfXPsUoz3HbqcF3fsgbGXE1FGi6xjGJJhBwY"
+			]
+		}
+	},
+	"version": 1
+}

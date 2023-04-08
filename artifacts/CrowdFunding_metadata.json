@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "objectiveId",
+						"type": "uint256"
+					}
+				],
+				"name": "claimObjectiveFunds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "objectiveId",
+						"type": "uint256"
+					}
+				],
+				"name": "contribute",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "purpose",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "fundAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountToBeRaised",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "end",
+						"type": "uint256"
+					}
+				],
+				"name": "raiseFund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "objectiveId",
+						"type": "uint256"
+					}
+				],
+				"name": "releaseUnmetObjectiveFunds",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"crowdfunding\\CrowdFunding.sol": "CrowdFunding"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"crowdfunding\\CrowdFunding.sol": {
+			"keccak256": "0x8591a0fd1eeaafc420add75f693268951197149640a29095624756699c173eec",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://59c89973f008bbf91a76c08e5c05f6ff62da8963026052463858e1bdce137da9",
+				"dweb:/ipfs/QmVM7Co5yGb6ro9WcemUc4xtxZ4hiD7xzsHu9eq8oas8c7"
+			]
+		}
+	},
+	"version": 1
+}
